@@ -81,6 +81,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FeatureSettingsProviderTest.cs" />
     <Compile Include="FeatureTest.cs" />
     <Compile Include="FeatureTogglerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,6 +97,9 @@
       <Project>{bc63bbcf-e736-4e96-aaaa-ad3e80364bd1}</Project>
       <Name>SharpToggling</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

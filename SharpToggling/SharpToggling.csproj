@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Feature.cs" />
+    <Compile Include="FeatureSettingsProvider.cs" />
     <Compile Include="FeatureToggler.cs" />
     <Compile Include="IFeature.cs" />
     <Compile Include="IFeatureSettingsProvider.cs" />

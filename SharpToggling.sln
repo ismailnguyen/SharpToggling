@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpToggling", "SharpToggling\SharpToggling.csproj", "{BC63BBCF-E736-4E96-AAAA-AD3E80364BD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5011BE0B-2B35-44B7-8A07-C27AA46C94B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpToggling.Tests", "Tests\SharpToggling.Tests\SharpToggling.Tests.csproj", "{A682B94B-77FB-40D0-ACAD-622026C19EBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC63BBCF-E736-4E96-AAAA-AD3E80364BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC63BBCF-E736-4E96-AAAA-AD3E80364BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC63BBCF-E736-4E96-AAAA-AD3E80364BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC63BBCF-E736-4E96-AAAA-AD3E80364BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A682B94B-77FB-40D0-ACAD-622026C19EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A682B94B-77FB-40D0-ACAD-622026C19EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A682B94B-77FB-40D0-ACAD-622026C19EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A682B94B-77FB-40D0-ACAD-622026C19EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A682B94B-77FB-40D0-ACAD-622026C19EBA} = {5011BE0B-2B35-44B7-8A07-C27AA46C94B8}
+	EndGlobalSection
+EndGlobal
